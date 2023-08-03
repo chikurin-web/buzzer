@@ -1,0 +1,27 @@
+:root {
+    --color1: #f7f9f9;
+    --color2: #2f272a;
+    --color3: #104c66;
+}
+body {
+    font-family: 'Zen Kaku Gothic New',BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: var(--color1);
+    color: var(--color2);
+}
+.titleColor {
+    background-color: var(--color3);
+}
+.titleColor .title, .titleColor .subtitle{
+    color: var(--color1);
+}
+div.container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 3rem;
+}
+h1.margined {
+    margin-top: 2.5rem;
+}
+p {
+    margin-bottom: 1rem;
+}
